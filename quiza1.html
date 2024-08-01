@@ -1,0 +1,148 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <meta name="viewport" content="width=device-width"/>
+ <link rel="icon" type="image/jpg" href="fav.jpg"/>
+ <title>Quiz</title>
+ <style>
+
+.sub {font-size: 40px; border-radius: 6px; border:none;}
+.sub:hover{background-color:black; color:#F1F7ED;;}
+
+
+.div1 {text-align: left; font-size: 30px; background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey; }
+.wrapper {}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<br><div style="text-align:center; font-size: 40px;"> A1 Placement Test</div><br><br>
+
+<div class="div1">
+
+Section 1: Grammar<br><br>
+Choose the correct option to complete the sentence:<br><br>
+
+1. I ___ a student.<br><hr>
+&#10162; <input type="radio" name="question1" id="correct1">am<br>
+&#10162; <input type="radio" name="question1">is<br>
+&#10162; <input type="radio" name="question1">are<br><br>
+
+2. She ___ a doctor.<br><hr>
+&#10162; <input type="radio" name="question2">am<br>
+&#10162; <input type="radio" name="question2" id="correct2">is<br>
+&#10162; <input type="radio" name="question2">are<br><br>
+
+3. They ___ happy.<br><hr>
+&#10162; <input type="radio" name="question3" id="correct3">are<br>
+&#10162; <input type="radio" name="question3">am<br>
+&#10162; <input type="radio" name="question3">is<br><br>
+
+4. We ___ to school every day.<br><hr>
+&#10162; <input type="radio" name="question4" id="correct4">go<br>
+&#10162; <input type="radio" name="question4">goes<br>
+&#10162; <input type="radio" name="question4">going<br><br>
+
+5. He ___ a book.<br><hr>
+&#10162; <input type="radio" name="question5">read<br>
+&#10162; <input type="radio" name="question5" id="correct5">reads<br>
+&#10162; <input type="radio" name="question5">are<br><br>
+</div><br><br>
+
+
+<div class="div1">
+
+Section 2: Vocabulary<br><br>
+Match the words with the correct descriptions:<br><br>
+
+1. Apple.<br><hr>
+&#10162; <input type="radio" name="question6" id="correct6">
+A red or green fruit<br>
+&#10162; <input type="radio" name="question6">
+A yellow fruit<br>
+&#10162; <input type="radio" name="question6">
+A fruit with orange peel<br><br>
+
+2. Cat<br><hr>
+&#10162; <input type="radio" name="question7">
+A small animal that says "woof"<br>
+&#10162; <input type="radio" name="question7" id="correct7">
+A small animal that says "meow"<br>
+&#10162; <input type="radio" name="question7">
+A large animal that says "moo"<br><br>
+
+3. Car<br><hr>
+&#10162; <input type="radio" name="question8" id="correct8">
+A vehicle with four wheels<br>
+&#10162; <input type="radio" name="question8">
+A vehicle with two wheels<br>
+&#10162; <input type="radio" name="question8">
+A vehicle with no wheels<br><br>
+
+4. Book<br><hr>
+&#10162; <input type="radio" name="question9" id="correct9">
+Something you read<br>
+&#10162; <input type="radio" name="question9">
+Something you eat<br>
+&#10162; <input type="radio" name="question9">
+Something you wear<br><br>
+
+5. Chair<br><hr>
+&#10162; <input type="radio" name="question10">
+Something you write with<br>
+&#10162; <input type="radio" name="question10" id="correct10">
+Something you sit on<br>
+&#10162; <input type="radio" name="question10">
+Something you drink<br><br>
+
+</div><br><br>
+<div style="text-align:center;"><input class="sub" type="submit" name="submit" value="Submit" onclick="result()"></div>
+
+</div>
+<script>
+ function result() {
+  var score = 0;
+
+  if (document.getElementById('correct1').checked){
+     score++;
+  }
+  if (document.getElementById('correct2').checked){
+     score++;
+  }
+  if (document.getElementById('correct3').checked){
+     score++;
+  }
+  if (document.getElementById('correct4').checked){
+     score++;
+  }
+  if (document.getElementById('correct5').checked){
+     score++;
+  }
+  if (document.getElementById('correct6').checked){
+     score++;
+  }
+  if (document.getElementById('correct7').checked){
+     score++;
+  }
+  if (document.getElementById('correct8').checked){
+     score++;
+  }
+  if (document.getElementById('correct9').checked){
+     score++;
+  }
+  if (document.getElementById('correct10').checked){
+     score++;
+  }
+  alert("Your score is:"+score);
+}
+</script>
+
+
+
+</body>
+</html>

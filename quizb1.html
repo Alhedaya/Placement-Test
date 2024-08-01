@@ -1,0 +1,149 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <meta name="viewport" content="width=device-width"/>
+ <link rel="icon" type="image/jpg" href="fav.jpg"/>
+ <title>B1</title>
+  <style>
+
+.sub {font-size: 40px; border-radius: 6px; border:none;}
+.sub:hover{background-color:black; color:#F1F7ED;;}
+
+
+.div1 {text-align: left; font-size: 30px; background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey; }
+.wrapper {}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<br><div style="text-align:center; font-size: 40px;"> B1 Placement Test</div><br><br>
+
+<div class="div1">
+
+Section 1: Grammar<br><br>
+Choose the correct option to complete the sentence:<br><br>
+
+1. If it ___ tomorrow, we will stay at home.<br><hr>
+&#10162; <input type="radio" name="question1" id="correct1">rains<br>
+&#10162; <input type="radio" name="question1">rain<br>
+&#10162; <input type="radio" name="question1">will rain<br><br>
+
+2. She has been working here ____ five years.<br><hr>
+&#10162; <input type="radio" name="question2">since<br>
+&#10162; <input type="radio" name="question2" id="correct2">for<br>
+&#10162; <input type="radio" name="question2">in<br><br>
+
+3. He ____ finished his homework before he went out.<br><hr>
+&#10162; <input type="radio" name="question3" >have<br>
+&#10162; <input type="radio" name="question3">has<br>
+&#10162; <input type="radio" name="question3" id="correct3">had<br><br>
+
+4. I wish I ____ play the piano.<br><hr>
+&#10162; <input type="radio" name="question4" id="correct4">could<br>
+&#10162; <input type="radio" name="question4">can<br>
+&#10162; <input type="radio" name="question4">will<br><br>
+
+5. They ____ the report by the time you arrive.<br><hr>
+&#10162; <input type="radio" name="question5">will complete<br>
+&#10162; <input type="radio" name="question5" id="correct5">will have completed<br>
+&#10162; <input type="radio" name="question5">complete
+<br><br>
+</div><br><br>
+
+
+<div class="div1">
+
+Section 2: Vocabulary<br><br>
+Match the words with their antonyms:<br><br>
+
+1. Generous<br><hr>
+&#10162; <input type="radio" name="question6" id="correct6">
+Stingy<br>
+&#10162; <input type="radio" name="question6">
+Kind<br>
+&#10162; <input type="radio" name="question6">
+Polite<br><br>
+
+2. Brave<br><hr>
+&#10162; <input type="radio" name="question7">
+Bold<br>
+&#10162; <input type="radio" name="question7" id="correct7">
+Cowardly<br>
+&#10162; <input type="radio" name="question7">
+Fearless<br><br>
+
+3. Temporary<br><hr>
+&#10162; <input type="radio" name="question8" id="correct8">
+Permanent<br>
+&#10162; <input type="radio" name="question8">
+Momentary<br>
+&#10162; <input type="radio" name="question8">
+Brief<br><br>
+
+4. Ancient<br><hr>
+&#10162; <input type="radio" name="question9" >
+Old<br>
+&#10162; <input type="radio" name="question9">
+Antique<br>
+&#10162; <input type="radio" name="question9" id="correct9">
+Modern<br><br>
+
+5. Complicated<br><hr>
+&#10162; <input type="radio" name="question10">
+Complex<br>
+&#10162; <input type="radio" name="question10" id="correct10">
+Simple<br>
+&#10162; <input type="radio" name="question10">
+Intricate<br><br>
+
+</div><br><br>
+<div style="text-align:center;"><input class="sub" type="submit" name="submit" value="Submit" onclick="result()"></div>
+
+</div>
+<script>
+ function result() {
+  var score = 0;
+
+  if (document.getElementById('correct1').checked){
+     score++;
+  }
+  if (document.getElementById('correct2').checked){
+     score++;
+  }
+  if (document.getElementById('correct3').checked){
+     score++;
+  }
+  if (document.getElementById('correct4').checked){
+     score++;
+  }
+  if (document.getElementById('correct5').checked){
+     score++;
+  }
+  if (document.getElementById('correct6').checked){
+     score++;
+  }
+  if (document.getElementById('correct7').checked){
+     score++;
+  }
+  if (document.getElementById('correct8').checked){
+     score++;
+  }
+  if (document.getElementById('correct9').checked){
+     score++;
+  }
+  if (document.getElementById('correct10').checked){
+     score++;
+  }
+  alert("Your score is:" +score);
+}
+</script>
+
+
+
+</body>
+</html>

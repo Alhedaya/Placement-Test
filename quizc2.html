@@ -1,0 +1,163 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <meta name="viewport" content="width=device-width"/>
+ <link rel="icon" type="image/jpg" href="fav.jpg"/>
+ <title>C2</title>
+  <style>
+
+.sub {font-size: 40px; border-radius: 6px; border:none;}
+.sub:hover{background-color:black; color:#F1F7ED;;}
+
+
+.div1 {text-align: left; font-size: 30px; background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey; }
+.wrapper {}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<br><div style="text-align:center; font-size: 40px;"> C2 Placement Test</div><br><br>
+
+<div class="div1">
+
+Section 1: Grammar<br><br>
+Choose the correct option to complete the sentence:<br><br>
+
+1. He was accused of ___ the company's funds.<br><hr>
+&#10162; <input type="radio" name="question1" id="correct1">
+embezzling<br>
+&#10162; <input type="radio" name="question1">
+to embezzle<br>
+&#10162; <input type="radio" name="question1">
+having embezzled<br><br>
+
+2. I would have called you if I ___ your number.<br><hr>
+&#10162; <input type="radio" name="question2">
+had<br>
+&#10162; <input type="radio" name="question2" id="correct2">
+had had<br>
+&#10162; <input type="radio" name="question2">
+have<br><br>
+
+3. It’s imperative that the application form ___ by tomorrow.<br><hr>
+&#10162; <input type="radio" name="question3" >
+submitted<br>
+&#10162; <input type="radio" name="question3">
+submits<br>
+&#10162; <input type="radio" name="question3" id="correct3">
+be submitted<br><br>
+
+4. No sooner ___ than it started to rain heavily.<br><hr>
+&#10162; <input type="radio" name="question4" id="correct4">
+had we arrived<br>
+&#10162; <input type="radio" name="question4">
+we had arrived<br>
+&#10162; <input type="radio" name="question4">
+we arrived<br><br>
+
+5. By the time you read this, I ___ the country.<br><hr>
+&#10162; <input type="radio" name="question5">
+will leave<br>
+&#10162; <input type="radio" name="question5" id="correct5">
+will have left<br>
+&#10162; <input type="radio" name="question5">
+would leave<br><br>
+</div><br><br>
+
+
+<div class="div1">
+
+Section 2: Vocabulary<br><br>
+Match the words with their definitions:<br><br>
+
+1. Precipitate <br><hr>
+&#10162; <input type="radio" name="question6" id="correct6">
+To cause to happen suddenly<br>
+&#10162; <input type="radio" name="question6">
+To delay<br>
+&#10162; <input type="radio" name="question6">
+To prevent<br><br>
+
+2. Obsequious<br><hr>
+&#10162; <input type="radio" name="question7">
+Disobedient<br>
+&#10162; <input type="radio" name="question7" id="correct7">
+Overly submissive and eager to please<br>
+&#10162; <input type="radio" name="question7">
+Independent<br><br>
+
+3. Assiduous<br><hr>
+&#10162; <input type="radio" name="question8" id="correct8">
+Showing great care and perseverance<br>
+&#10162; <input type="radio" name="question8">
+Lazy and neglectful<br>
+&#10162; <input type="radio" name="question8">
+Quick and superficial<br><br>
+
+4. Ephemeral<br><hr>
+&#10162; <input type="radio" name="question9" >
+Eternal<br>
+&#10162; <input type="radio" name="question9">
+Common<br>
+&#10162; <input type="radio" name="question9" id="correct9">
+Lasting for a very short time<br><br>
+
+5. Alacrity<br><hr>
+&#10162; <input type="radio" name="question10">
+Hesitation<br>
+&#10162; <input type="radio" name="question10" id="correct10">
+Eagerness<br>
+&#10162; <input type="radio" name="question10">
+Indifference<br><br>
+
+</div><br><br>
+<div style="text-align:center;"><input class="sub" type="submit" name="submit" value="Submit" onclick="result()"></div>
+
+</div>
+<script>
+ function result() {
+  var score = 0;
+
+  if (document.getElementById('correct1').checked){
+     score++;
+  }
+  if (document.getElementById('correct2').checked){
+     score++;
+  }
+  if (document.getElementById('correct3').checked){
+     score++;
+  }
+  if (document.getElementById('correct4').checked){
+     score++;
+  }
+  if (document.getElementById('correct5').checked){
+     score++;
+  }
+  if (document.getElementById('correct6').checked){
+     score++;
+  }
+  if (document.getElementById('correct7').checked){
+     score++;
+  }
+  if (document.getElementById('correct8').checked){
+     score++;
+  }
+  if (document.getElementById('correct9').checked){
+     score++;
+  }
+  if (document.getElementById('correct10').checked){
+     score++;
+  }
+  alert("Your score is:" +score);
+}
+</script>
+
+
+
+</body>
+</html>

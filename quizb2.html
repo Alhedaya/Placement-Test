@@ -1,0 +1,161 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <meta name="viewport" content="width=device-width"/>
+ <link rel="icon" type="image/jpg" href="fav.jpg"/>
+ <title>B2</title>
+  <style>
+
+.sub {font-size: 40px; border-radius: 6px; border:none;}
+.sub:hover{background-color:black; color:#F1F7ED;;}
+
+
+.div1 {text-align: left; font-size: 30px; background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey; }
+.wrapper {}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<br><div style="text-align:center; font-size: 40px;"> B2 Placement Test</div><br><br>
+
+<div class="div1">
+
+Section 1: Grammar<br><br>
+Choose the correct option to complete the sentence:<br><br>
+
+1. Despite ___ hard, he didn't manage to pass the exam.<br><hr>
+&#10162; <input type="radio" name="question1" id="correct1">
+studying<br>
+&#10162; <input type="radio" name="question1">
+studied<br>
+&#10162; <input type="radio" name="question1">
+study<br><br>
+
+2. By the time you get this letter, I ____.<br><hr>
+&#10162; <input type="radio" name="question2">
+will leave<br>
+&#10162; <input type="radio" name="question2" id="correct2">
+will have left<br>
+&#10162; <input type="radio" name="question2">
+am leaving<br><br>
+
+3. If I ____ you, I would take that job.<br><hr>
+&#10162; <input type="radio" name="question3" >
+am<br>
+&#10162; <input type="radio" name="question3">
+was<br>
+&#10162; <input type="radio" name="question3" id="correct3">were<br><br>
+
+4. She ____ her car repaired last week.<br><hr>
+&#10162; <input type="radio" name="question4" id="correct4">
+had<br>
+&#10162; <input type="radio" name="question4">
+has<br>
+&#10162; <input type="radio" name="question4">have<br><br>
+
+5. They decided ____ their holidays in Spain.<br><hr>
+&#10162; <input type="radio" name="question5">
+spend<br>
+&#10162; <input type="radio" name="question5" id="correct5">
+to spend<br>
+&#10162; <input type="radio" name="question5">
+spending<br><br>
+</div><br><br>
+
+
+<div class="div1">
+
+Section 2: Vocabulary<br><br>
+Match the words with their definitions:<br><br>
+
+1. Meticulous <br><hr>
+&#10162; <input type="radio" name="question6" id="correct6">
+Very careful and precise<br>
+&#10162; <input type="radio" name="question6">
+Rude and unfriendly<br>
+&#10162; <input type="radio" name="question6">
+Unwilling to change<br><br>
+
+2. Alleviate<br><hr>
+&#10162; <input type="radio" name="question7">
+To support<br>
+&#10162; <input type="radio" name="question7" id="correct7">
+To relieve or reduce<br>
+&#10162; <input type="radio" name="question7">
+To worsen<br><br>
+
+3. Ambiguous<br><hr>
+&#10162; <input type="radio" name="question8" id="correct8">
+Open to more than one interpretation<br>
+&#10162; <input type="radio" name="question8">
+Clear and specific<br>
+&#10162; <input type="radio" name="question8">
+Easy to understand<br><br>
+
+4. Diligent<br><hr>
+&#10162; <input type="radio" name="question9" >
+Quick and efficient<br>
+&#10162; <input type="radio" name="question9">
+Lazy and unmotivated<br>
+&#10162; <input type="radio" name="question9" id="correct9">
+Showing care and effort in one's work<br><br>
+
+5. Eloquent<br><hr>
+&#10162; <input type="radio" name="question10">
+Inarticulate and clumsy<br>
+&#10162; <input type="radio" name="question10" id="correct10">
+Able to use language clearly and effectively<br>
+&#10162; <input type="radio" name="question10">
+Brief and to the point<br><br>
+
+</div><br><br>
+<div style="text-align:center;"><input class="sub" type="submit" name="submit" value="Submit" onclick="result()"></div>
+
+</div>
+<script>
+ function result() {
+  var score = 0;
+
+  if (document.getElementById('correct1').checked){
+     score++;
+  }
+  if (document.getElementById('correct2').checked){
+     score++;
+  }
+  if (document.getElementById('correct3').checked){
+     score++;
+  }
+  if (document.getElementById('correct4').checked){
+     score++;
+  }
+  if (document.getElementById('correct5').checked){
+     score++;
+  }
+  if (document.getElementById('correct6').checked){
+     score++;
+  }
+  if (document.getElementById('correct7').checked){
+     score++;
+  }
+  if (document.getElementById('correct8').checked){
+     score++;
+  }
+  if (document.getElementById('correct9').checked){
+     score++;
+  }
+  if (document.getElementById('correct10').checked){
+     score++;
+  }
+  alert("Your score is:" +score);
+}
+</script>
+
+
+
+</body>
+</html>

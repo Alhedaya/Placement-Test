@@ -1,0 +1,148 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <meta name="viewport" content="width=device-width"/>
+ <link rel="icon" type="image/jpg" href="fav.jpg"/>
+ <title>A2</title>
+  <style>
+
+.sub {font-size: 40px; border-radius: 6px; border:none;}
+.sub:hover{background-color:black; color:#F1F7ED;;}
+
+
+.div1 {text-align: left; font-size: 30px; background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey; }
+.wrapper {}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<br><div style="text-align:center; font-size: 40px;"> A2 Placement Test</div><br><br>
+
+<div class="div1">
+
+Section 1: Grammar<br><br>
+Choose the correct option to complete the sentence:<br><br>
+
+1. I ___ to the cinema yesterday.<br><hr>
+&#10162; <input type="radio" name="question1" id="correct1">went<br>
+&#10162; <input type="radio" name="question1">go<br>
+&#10162; <input type="radio" name="question1">gone<br><br>
+
+2. She ___ breakfast every morning.<br><hr>
+&#10162; <input type="radio" name="question2">eat<br>
+&#10162; <input type="radio" name="question2" id="correct2">eats<br>
+&#10162; <input type="radio" name="question2">eating<br><br>
+
+3. We ___ going to the park now.<br><hr>
+&#10162; <input type="radio" name="question3" id="correct3">are<br>
+&#10162; <input type="radio" name="question3">am<br>
+&#10162; <input type="radio" name="question3">is<br><br>
+
+4. They ___ live in Paris.<br><hr>
+&#10162; <input type="radio" name="question4" id="correct4">don't<br>
+&#10162; <input type="radio" name="question4">doesn't<br>
+&#10162; <input type="radio" name="question4">didn't<br><br>
+
+5. He ___ play the guitar when he was young.<br><hr>
+&#10162; <input type="radio" name="question5">can<br>
+&#10162; <input type="radio" name="question5" id="correct5">could<br>
+&#10162; <input type="radio" name="question5">will<br><br>
+</div><br><br>
+
+
+<div class="div1">
+
+Section 2: Vocabulary<br><br>
+Match the words with their synonyms:<br><br>
+
+1. Happy<br><hr>
+&#10162; <input type="radio" name="question6" id="correct6">
+Joyful<br>
+&#10162; <input type="radio" name="question6">
+Angry<br>
+&#10162; <input type="radio" name="question6">
+Sad<br><br>
+
+2. Large<br><hr>
+&#10162; <input type="radio" name="question7">
+Small<br>
+&#10162; <input type="radio" name="question7" id="correct7">
+Big<br>
+&#10162; <input type="radio" name="question7">
+Tiny<br><br>
+
+3. Fast<br><hr>
+&#10162; <input type="radio" name="question8" id="correct8">
+Quick<br>
+&#10162; <input type="radio" name="question8">
+Slow<br>
+&#10162; <input type="radio" name="question8">
+Quiet<br><br>
+
+4. Easy<br><hr>
+&#10162; <input type="radio" name="question9" >
+Difficult<br>
+&#10162; <input type="radio" name="question9">
+Hard<br>
+&#10162; <input type="radio" name="question9" id="correct9">
+Simple<br><br>
+
+5. Begin<br><hr>
+&#10162; <input type="radio" name="question10">
+End<br>
+&#10162; <input type="radio" name="question10" id="correct10">
+Start<br>
+&#10162; <input type="radio" name="question10">
+Finish<br><br>
+
+</div><br><br>
+<div style="text-align:center;"><input class="sub" type="submit" name="submit" value="Submit" onclick="result()"></div>
+
+</div>
+<script>
+ function result() {
+  var score = 0;
+
+  if (document.getElementById('correct1').checked){
+     score++;
+  }
+  if (document.getElementById('correct2').checked){
+     score++;
+  }
+  if (document.getElementById('correct3').checked){
+     score++;
+  }
+  if (document.getElementById('correct4').checked){
+     score++;
+  }
+  if (document.getElementById('correct5').checked){
+     score++;
+  }
+  if (document.getElementById('correct6').checked){
+     score++;
+  }
+  if (document.getElementById('correct7').checked){
+     score++;
+  }
+  if (document.getElementById('correct8').checked){
+     score++;
+  }
+  if (document.getElementById('correct9').checked){
+     score++;
+  }
+  if (document.getElementById('correct10').checked){
+     score++;
+  }
+  alert("Your score is:" +score);
+}
+</script>
+
+
+
+</body>
+</html>
